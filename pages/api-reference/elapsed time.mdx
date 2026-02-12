@@ -1,0 +1,13 @@
+# ElapsedTime
+
+| Type   | Method                 | Description                                                                                      |
+|--------|------------------------|--------------------------------------------------------------------------------------------------|
+| double | seconds()              | Returns the duration that has elapsed since the last reset of this timer in seconds.             |
+| double | milliseconds()         | Returns the duration that has elapsed since the last reset of this timer in milliseconds.        |
+| long   | nanoseconds()          | Returns the duration that has elapsed since the last reset of this timer in nanoseconds.         |
+| void   | reset()                | Reset internal state of the timer to reflect the current time.                                   |
+| double | startTime()            | Returns the time at which the timer was last reset, in resolution-dependent units.               |
+| long   | startTimeNanoSeconds() | Returns the time at which the timer was last reset, in nanoseconds.                              |
+| double | time()                 | Returns the duration that has elapsed since the last reset of this timer.                        |
+| long   | time(TimeUnit unit)    | Returns the duration that has elapsed since the last reset of this timer in the units requested. |
+| String | toString()             | Returns a string indicating the current elapsed time of the timer.                               |
