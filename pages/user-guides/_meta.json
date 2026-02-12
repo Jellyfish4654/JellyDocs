@@ -2,7 +2,7 @@
   "reading-hardware": "Reading Hardware",
   "linearopmode": "OpMode",
   "mecanum-teleop": "Mecanum TeleOp",
-  "imu": "Reading IMU",
+  "readingimu": "Reading IMU",
   "gamepad": "Gamepad",
   "pid" : "PID Controller"
 }
