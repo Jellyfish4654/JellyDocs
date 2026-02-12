@@ -6,5 +6,6 @@
   "servo": "Servos",
   "crservo": "CRServos",
   "telemetry": "Telemetry",
-  "elapsedtime": "ElapsedTime"
+  "elapsedtime": "ElapsedTime,"
+  "imu": "IMU"
 }
