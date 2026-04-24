@@ -1,17 +1,3 @@
-import { withGitHubAlert, Callout, Blockquote } from 'nextra/components'
-
-const AlertBlockquote = withGitHubAlert(
-  ({ type, children }) => <Callout type={type}>{children}</Callout>,
-  Blockquote
-)
-
-export function useMDXComponents(components) {
-  return {
-    ...components,
-    blockquote: AlertBlockquote
-  }
-}
-
 # Welcome to JellyDocs!
 
 ### JellyDocs is a guide to FTC Software by Team 4654 Jellyfish.
