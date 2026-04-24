@@ -4,13 +4,12 @@ import type { DocsThemeConfig } from 'nextra-theme-docs'
 import { useConfig } from 'nextra-theme-docs'
 import { useMDXComponents as getMDXComponents } from './mdx-components'
 
-export default {
-  useMDXComponents: getMDXComponents
-}
-
 const config: DocsThemeConfig = {
   logo: <span>JellyDocs</span>,
   docsRepositoryBase: 'https://github.com/Jellyfish4654/JellyDocs/tree/main/JellyDocs',
+
+  useMDXComponents: getMDXComponents,
+  
   footer: {
     text: ' ',
   },
