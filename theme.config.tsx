@@ -2,7 +2,11 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import type { DocsThemeConfig } from 'nextra-theme-docs'
 import { useConfig } from 'nextra-theme-docs'
+import { useMDXComponents as getMDXComponents } from './mdx-components'
 
+export default {
+  useMDXComponents: getMDXComponents
+}
 
 const config: DocsThemeConfig = {
   logo: <span>JellyDocs</span>,
